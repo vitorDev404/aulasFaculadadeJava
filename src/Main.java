@@ -1,17 +1,14 @@
-//Exercício Proposto 1 – Calculadora de Velocidade Média
-//Problema: Elabore um algoritmo e um programa Java que receba a
-//distância percorrida (em km) e o tempo gasto (em horas). O programa
-//deve exibir a velocidade média.
+//Exercício Proposto 2 – Conversor de Moedas para Viagens
+//• Problema: Leia o valor em Reais (R$) disponível e a cotação atual do
+//dólar. Calcule e exiba quanto o aluno terá em Dólares (US$).
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        double distancia, tempoGasto, velocidadeMedia;
-        System.out.println("Digite a distancia:");
-        distancia = scanner.nextDouble();
-        System.out.println("Digite o tempo gasto:");
-        tempoGasto = scanner.nextDouble();
-        velocidadeMedia = distancia/tempoGasto;
-        System.out.println("A velocidade media é igual a: "+velocidadeMedia);
+        double real, dolar;
+        System.out.println("Digite o valor em R$: ");
+        real = scanner.nextDouble();
+        dolar = real*5.23;
+        System.out.println("Dolar = $ "+dolar);
     }
 }
