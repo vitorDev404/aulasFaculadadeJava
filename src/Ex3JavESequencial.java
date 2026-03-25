@@ -4,7 +4,7 @@
 //V = π . r2. h
 import java.util.Scanner;
 import java.lang.Math;
-public class Ex3 {
+public class Ex3JavESequencial {
     public static void main(String[] args)
     {
         double raio,altura,volume;

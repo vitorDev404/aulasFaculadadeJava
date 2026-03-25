@@ -4,7 +4,7 @@
 //A área total da praça e o custo total do material.
 import java.util.Scanner;
 import java.lang.Math;
-public class Ex5 {
+public class Ex5JavaESequencial {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);

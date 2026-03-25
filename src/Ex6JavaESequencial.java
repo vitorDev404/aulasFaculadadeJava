@@ -5,7 +5,7 @@
 //em uma única linha de processamento.
 import java.util.Scanner;
 import java.lang.Math;
-public class Ex6 {
+public class Ex6JavaESequencial {
     public static void main (String[] args){
         double cateto1,cateto2,hip,cateto1Quad,cateto2Quad;
         Scanner scanner = new Scanner(System.in);

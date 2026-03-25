@@ -5,8 +5,8 @@ import java.util.Scanner;
 //por dia e o preço do KWh cobrado pela concessionária. Calcule o custo
 //mensal (30 dias) desse aparelho.
 //Requisito: Exiba o custo final formatado com System.out.printf("%.2f").
-import java.util.Scanner;
-public class Ex4 {
+
+public class Ex4JavaESequencial {
     public static void main(String[] args)
     {
         Scanner scanner = new Scanner(System.in);
