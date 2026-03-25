@@ -5,10 +5,10 @@ import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        double real, dolar;
-        System.out.println("Digite o valor em R$: ");
+        double real,dolar;
+        System.out.println("Digite um valor em R$ ");
         real = scanner.nextDouble();
-        dolar = real*5.23;
-        System.out.println("Dolar = $ "+dolar);
+        dolar = real*5.28;
+        System.out.println("Dolar $ "+dolar);
     }
 }
